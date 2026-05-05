@@ -12,8 +12,14 @@ regras de negócio complexas e segurança robusta.
 - **Spring Security** (Autenticação via JWT)
 - **Lombok** & **Maven**
 - **Insomnia** (Testes da API)
+## 📁 Estrutura do projeto
+src/
+├── controller
+├── endereco
+├── medico
 ## Configuração Local
 1. Clone o repositório.
 2. Configure as Variáveis de Ambiente ( `DB_USERNAME` e
 `DB_PASSWORD`).
 3. Execute o projeto 
+
