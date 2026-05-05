@@ -1,25 +1,22 @@
-API REST para gerenciamento de uma clínica médica, desenvolvida com
-foco em boas práticas CRUD de desenvolvimento Java e Spring Boot.
-## 🩺 Sobre o projeto
-O projeto simula o backend de um sistema de Cadastro,Listagem,Atualização
-e exclusão de médicos, garantindo
-regras de negócio complexas e segurança robusta.
-## 🛠 Tecnologias
-- **Java 17** & **Spring Boot 3**
-- **Spring Data JPA** & **Hibernate**
-- **Flyway** (Migrations do Banco de Dados)
-- **MySQL**
-- **Spring Security** (Autenticação via JWT)
-- **Lombok** & **Maven**
-- **Insomnia** (Testes da API)
-## 📁 Estrutura do projeto
-src/
-├── controller
-├── endereco
-├── medico
-## Configuração Local
-1. Clone o repositório.
-2. Configure as Variáveis de Ambiente ( `DB_USERNAME` e
-`DB_PASSWORD`).
-3. Execute o projeto 
+# 🏥 Voll.med API
 
+API REST para gerenciamento de uma clínica médica, desenvolvida com **Spring Boot 3** e **Java 17**. O sistema permite o cadastro, listagem, atualização e exclusão de médicos, aplicando regras de negócio e segurança avançada.
+
+## 🚀 Tecnologias
+- **Spring Boot 3** (Java 17)
+- **Spring Data JPA** (Persistência)
+- **MySQL** (Banco de Dados)
+- **Flyway** (Migrations)
+- **Spring Security** (Autenticação Stateless com JWT)
+- **Lombok** (Produtividade)
+- **Insomnia** (Testes da API)
+
+## 🔑 Configuração de Segurança
+Este projeto utiliza variáveis de ambiente para dados sensíveis. Defina as seguintes variáveis antes de rodar:
+- `DB_USERNAME`: Usuário do banco de dados
+- `DB_PASSWORD`: Senha do banco de dados
+
+## 🛠️ Como executar
+1. Clone o repositório: `git clone https://github.com/rogers-codes/API-Voll-Med.git`
+2. Configure as variáveis de ambiente mencionadas acima.
+3. Execute a aplicação na pasta: \src\main\java\medico\ ApiAplication
