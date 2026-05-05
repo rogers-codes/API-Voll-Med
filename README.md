@@ -11,6 +11,7 @@ regras de negócio complexas e segurança robusta.
 - **MySQL**
 - **Spring Security** (Autenticação via JWT)
 - **Lombok** & **Maven**
+- **Insomnia** (Testes da API)
 ## Configuração Local
 1. Clone o repositório.
 2. Configure as Variáveis de Ambiente ( `DB_USERNAME` e
