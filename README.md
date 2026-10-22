@@ -10,7 +10,7 @@ A **Voll.med API** é uma solução robusta para a gestão de uma clínica médi
 
 ---
 
-## 🚀 Funcionalidades Principais
+##  Funcionalidades Principais
 
 - **CRUD de Médicos:** Cadastro, listagem (paginada), atualização e exclusão lógica.
 - **Segurança:** Autenticação stateless via tokens JWT (JSON Web Tokens).
@@ -20,7 +20,7 @@ A **Voll.med API** é uma solução robusta para a gestão de uma clínica médi
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Java 17** (Linguagem principal)
 - **Spring Boot 3** (Framework)
@@ -34,7 +34,7 @@ A **Voll.med API** é uma solução robusta para a gestão de uma clínica médi
 
 ---
 
-## 📖 Documentação da API (Endpoints)
+##  Documentação da API (Endpoints)
 
 ### Médicos
 | Método | Endpoint | Descrição |
@@ -44,7 +44,7 @@ A **Voll.med API** é uma solução robusta para a gestão de uma clínica médi
 | `PUT` | `/medicos` | Atualiza informações de um médico |
 | `DELETE` | `/medicos/{id}` | Realiza a exclusão lógica do médico |
 
-## ⚙️ Configuração do Ambiente
+##  Configuração do Ambiente
 
 A aplicação utiliza variáveis de ambiente para proteger dados sensíveis. Certifique-se de configurar as seguintes variáveis no seu sistema ou na sua IDE (IntelliJ/Eclipse):
 
@@ -54,7 +54,7 @@ DB_NAME=vollmed_api
 DB_USERNAME=o_seu_usuario
 DB_PASSWORD=a_sua_senha
 
-## 🛠️ Como Executar o Projeto
+##  Como Executar o Projeto
 
 ### Clone o repositorio.
 No seu terminal, execute o comando para baixar o projeto:
