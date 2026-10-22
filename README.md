@@ -59,7 +59,7 @@ DB_PASSWORD=a_sua_senha
 ### Clone o repositorio.
 No seu terminal, execute o comando para baixar o projeto:
 ```bash
-git clone [https://github.com/rogers-codes/API-Voll-Med.git](https://github.com/rogers-codes/API-Voll-Med.git)
+git clone https://github.com/rogers-codes/API-Voll-Med.git](https://github.com/rogers-codes/API-Voll-Med.git
 ```
 
 ### Confirgure a base de dados:
